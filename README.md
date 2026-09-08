@@ -49,7 +49,7 @@ The inspected setting paths match the upstream GriefPrevention Java source as ob
 
 Sources:
 - [GriefPrevention configuration](https://docs.griefprevention.com/configuration/)
-- [GriefPrevention implementation](https://github.com/GriefPrevention/GriefPrevention/blob/master/src/main/java/me/ryanhamshire/GriefPrevention/GriefPrevention.java)
+- [GriefPrevention implementation](https://github.com/GriefPrevention/GriefPrevention/blob/a7be1ab98f37ef5aebd5967a23d154191e4723d1/src/main/java/me/ryanhamshire/GriefPrevention/GriefPrevention.java)
 - [Paper profiling guide](https://docs.papermc.io/paper/profiling/)
 
 MIT licensed. See [LICENSE](LICENSE).
