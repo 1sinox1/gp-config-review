@@ -1,0 +1,15 @@
+# Synthetic example, not a client configuration.
+GriefPrevention:
+  Claims:
+    Mode:
+      world: Survival
+      nations: Disabled
+    Expiration:
+      ChestClaimDays: 7
+      AllClaims:
+        DaysInactive: 0
+  PvP:
+    ProtectPlayersInLandClaims:
+      PlayerOwnedClaims: true
+      AdministrativeClaims: true
+      AdministrativeSubdivisions: true
