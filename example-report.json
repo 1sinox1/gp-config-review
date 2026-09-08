@@ -1,0 +1,47 @@
+{
+  "scope": "Partial configuration review, not a diagnosis or complete validator",
+  "findings": [
+    {
+      "setting": "Claims.Expiration.ChestClaimDays",
+      "value": 7,
+      "status": "review",
+      "detail": "Inactivity threshold: 7 days. Check exemptions, logs and claim backups before attributing a missing claim to expiration."
+    },
+    {
+      "setting": "Claims.Expiration.AllClaims.DaysInactive",
+      "value": 0,
+      "status": "review",
+      "detail": "Expiration disabled by this setting."
+    },
+    {
+      "setting": "PvP.ProtectPlayersInLandClaims.PlayerOwnedClaims",
+      "value": true,
+      "status": "review",
+      "detail": "GP protection enabled for this claim category; this is not a per-claim switch."
+    },
+    {
+      "setting": "PvP.ProtectPlayersInLandClaims.AdministrativeClaims",
+      "value": true,
+      "status": "review",
+      "detail": "GP protection enabled for this claim category; this is not a per-claim switch."
+    },
+    {
+      "setting": "PvP.ProtectPlayersInLandClaims.AdministrativeSubdivisions",
+      "value": true,
+      "status": "review",
+      "detail": "GP protection enabled for this claim category; this is not a per-claim switch."
+    },
+    {
+      "setting": "Claims.Mode.nations",
+      "value": "Disabled",
+      "status": "review",
+      "detail": "Claims do not protect this world. Confirm this is intentional before adding Towny/Lands."
+    },
+    {
+      "setting": "Claims.Mode.world",
+      "value": "Survival",
+      "status": "review",
+      "detail": "Keep existing claim storage and world mapping intact when evaluating a separate nations world."
+    }
+  ]
+}
